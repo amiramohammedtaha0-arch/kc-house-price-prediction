@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Editor / IDE artifacts
+tempCodeRunnerFile.py
+.vscode/
+
+# OS files
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Generated data (optional: uncomment if you don't want to commit the processed file)
+# dataAfterPre.csv
