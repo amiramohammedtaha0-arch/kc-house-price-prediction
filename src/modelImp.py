@@ -41,7 +41,7 @@ def fun(X_matrix,y,alpha,grad_check,cost_check,max_epochs):
     m=X_matrix.shape[0]
     theta_vector=np.zeros((n,1))  #initialization   1
 
-    number_of_mini_batchs=int(m/32)
+    # number_of_mini_batchs=int(m/32)
     number_of_mini_batchs=int(m/b)
     for i in range(max_epochs):
         
